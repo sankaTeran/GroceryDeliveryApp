@@ -12,7 +12,7 @@ function Banner() {
   return (
     <div>
       {bannerVisible && (
-        <div className="bg-linear-to-r from-zinc-900 via-zinc-700 to-zinc-900 text-white text-xs sm:text-sm relative overflow-hidden">
+        <div className="bg-linear-to-r from-app-dark via-zinc-700 to-app-dark text-white text-xs sm:text-sm relative overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-center gap-6">
             <div className="flex items-center justify-center gap-2">
               <Truck className="size-4 shrink-0" />

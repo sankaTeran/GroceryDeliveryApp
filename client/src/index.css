@@ -2,6 +2,10 @@
 @import "tailwindcss";
 
 @theme {
+    --color-app-text-dark: #52525b; /* zinc-600 */
+    --color-app-dark: #18181b; /* zinc-900 */
+    --color-app-dark-hover: #27272a;  /* zinc-800 */
+    --color-app-dark-pure: #09090b; /* zinc-950*/
     --color-app-green: #1b3022;
     --color-app-green-light: #2d4a35;
     --color-app-green-lighter: #3d6b4a;

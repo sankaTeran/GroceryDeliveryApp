@@ -34,7 +34,7 @@ export const categoriesData = [
 ];
 
 export const heroSectionData = {
-    description: "Fresh, organic groceries delivered from local farms to your doorstep. Quality you can taste, convenience you deserve.",
+    description: "Authentic handicrafts sourced from local artisans to your doorstep. Heritage you can feel, stories you can treasure",
     hero_image: hero_bg,
     hero_background: hero_background,
     hero_features: [

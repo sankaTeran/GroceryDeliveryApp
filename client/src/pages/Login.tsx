@@ -28,11 +28,11 @@ function Login() {
     
     <div className="min-h-screen flex w-full">
       {/* ------ Left Side (Image) ------ */}
-      <div className="hidden lg:flex lg:w-1/2 bg-zinc-900 relative items-center justify-center overflow-hidden">
+      <div className="hidden lg:flex lg:w-1/2 bg-app-dark relative items-center justify-center overflow-hidden">
         <img
           src={heroSectionData.hero_background}
           alt="CraftCeylon Background"
-          className="absolute inset-0 object-cover w-full h-full bg-center opacity-20" // ✅ opacity-20 ලෙස නිවැරදි කළා
+          className="absolute inset-0 object-cover w-full h-full bg-center opacity-20"
         />
         <div className="relative text-center px-12 z-10">
           <h2 className="text-5xl font-bold text-white mb-4 tracking-wide">
@@ -51,18 +51,18 @@ function Login() {
           {/* form header message */}
           <div className="text-center mb-8">
             <Link to="/" className="inline-flex items-center gap-2 mb-6">
-              <BikeIcon className="size-8 text-zinc-600" />
-              <span className="text-2xl font-bold text-zinc-600 tracking-wide">
+              <BikeIcon className="size-8 text-app-text-dark" />
+              <span className="text-2xl font-bold text-app-text-dark tracking-wide">
                 CraftCeylon
               </span>
             </Link>
 
-            <h1 className="text-2xl font-semibold text-zinc-600">
+            <h1 className="text-2xl font-semibold text-app-text-dark">
               {isLoginState
                 ? "Sign in to your account "
                 : "Sign up for an account"}
             </h1>
-            <p className="text-sm text-zinc-500 mt-6 text-center">
+            <p className="text-sm text-app-text-light mt-6 text-center">
               {isLoginState
                 ? "Don't have an account? "
                 : "Already have an account? "}
@@ -77,7 +77,7 @@ function Login() {
           <form onSubmit={handleSubmit} className="space-y-5">
             {/* isLoginState when false, (In Registration) Name can be seen*/}
             {!isLoginState && (
-              <label className="text-sm flex flex-col gap-1 text-zinc-600">
+              <label className="text-sm flex flex-col gap-1 text-app-text-dark">
                 <span>Name</span>
                 <div className="relative">
                   {/* User Icon*/}
@@ -94,7 +94,7 @@ function Login() {
                 </div>
               </label>
             )}
-            <label className="text-sm flex flex-col gap-1 text-zinc-600">
+            <label className="text-sm flex flex-col gap-1 text-app-text-dark">
               <span>Email</span>
               <div className="relative">
                 <MailIcon className="absolute left-3.5 top-1/2 -translate-y-1/2 size-4 text-app-text-light" />
@@ -109,7 +109,7 @@ function Login() {
               </div>
             </label>
 
-            <label className="text-sm flex flex-col gap-1 text-zinc-600">
+            <label className="text-sm flex flex-col gap-1 text-app-text-dark">
               <span>Password</span>
               <div className="relative">
                 <LockIcon className="absolute left-3.5 top-1/2 -translate-y-1/2 size-4 text-app-text-light" />
