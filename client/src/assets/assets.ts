@@ -1,4 +1,4 @@
-import { TruckIcon, LeafIcon, ClockIcon, ShieldCheckIcon, MapPinIcon, PhoneIcon, MailIcon } from "lucide-react";
+import { LeafIcon, ShieldCheckIcon, MapPinIcon, PhoneIcon, MailIcon, Globe, Sparkles, Car } from "lucide-react";
 import { SiFacebook, SiX, SiInstagram } from "@icons-pack/react-simple-icons";
 import hero_bg from "./hero_bg.jpeg";
 import delivery_truck from "./delivery_truck.svg";
@@ -13,6 +13,16 @@ import personal_care from "./personal_care.png";
 import baby_care from "./baby_care.png";
 import meat_seafood from "./meat_seafood.png";
 import hero_background from "./hero_background.png";
+import mask from "./mask.png";
+import pot from "./pot.png";
+import carwing from "./carwing.png";
+import bathik from "./bathik.jpg"
+import asmie from "./asmie.png"
+import metalware from "./metalware.png"
+import rushcraft from "./rushcraft.png"
+import souvenirs from "./souvenirs.png"
+
+
 
 export const assets = {
     delivery_truck,
@@ -38,23 +48,23 @@ export const heroSectionData = {
     hero_image: hero_bg,
     hero_background: hero_background,
     hero_features: [
-        { icon: TruckIcon, title: "Free Delivery", desc: "Orders over $20" },
-        { icon: LeafIcon, title: "100% Organic", desc: "Certified products" },
-        { icon: ClockIcon, title: "Same Day", desc: "Express delivery" },
-        { icon: ShieldCheckIcon, title: "Secure Pay", desc: "Safe checkout" },
+        { icon: Globe, title: "Worldwide Shipping", desc: "Orders over $20" },
+        { icon: Sparkles, title: "100% Handcrafted", desc: "Made by local master artisans" },
+        { icon: LeafIcon, title: "Sustainable Art", desc: "Eco-friendly & natural materials" },
+        { icon: ShieldCheckIcon, title: "Secure Checkout", desc: "Safe checkout" },
     ],
 };
 
 export const deliveryPartnerLoginImage = "https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=200";
 
 export const appPromoBannerData = {
-    title: "Get fresh groceries in minutes",
-    description: "Download the Instacart app for exclusive deals, real-time tracking, and the freshest selection delivered right to your door.",
+    title: "Purely Ceylon delivered in minutes",
+    description: "Download the Craft Ceylon app for exclusive deals, real-time tracking, and the freshest selection delivered right to your door.",
 };
 
 export const footerData = {
     brand: {
-        name: "Instacart",
+        name: "Craft Ceylon",
         description: "Bringing fresh, organic groceries straight from local farms to your doorstep. Nourish your home with Earth's finest.",
         socials: [
             { icon: SiFacebook, link: "#" },
@@ -85,9 +95,9 @@ export const footerData = {
     ],
 
     contact: [
-        { icon: MapPinIcon, text: "123 Green Valley Rd, Portland" },
-        { icon: PhoneIcon, text: "+1 (111) 123-4567" },
-        { icon: MailIcon, text: "hello@example.com" },
+        { icon: MapPinIcon, text: "2/172 Jayanthimawatha Galgamuwa Maharachchimulla" },
+        { icon: PhoneIcon, text: "+94 764713721" },
+        { icon: MailIcon, text: "sankagunarathna3@gmail.com" },
     ],
 
     bottom: {
